@@ -396,7 +396,7 @@ while(getline(input_file,user_input))
             rs=word;
             temprs=rs;
 			rs = setRsValue(rs);
-			temprs = setRs(temprs);
+			rs = setRs(temprs);
         }
 
 
@@ -422,7 +422,7 @@ while(getline(input_file,user_input))
             temprs=rs;
 			rs = setRsValue(rs);
 			rs = setRs(temprs);
-               }
+            }
 
 		// Slt Operation
 		else if(opc=="1011"){
